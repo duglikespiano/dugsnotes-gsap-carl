@@ -1,0 +1,14 @@
+.box {
+	width: 200px;
+	height: 200px;
+	opacity: 0;
+	&1 {
+		background-color: red;
+	}
+	&2 {
+		background-color: yellow;
+	}
+	&3 {
+		background-color: peru;
+	}
+}
