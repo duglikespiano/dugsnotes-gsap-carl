@@ -30,7 +30,7 @@ import connectSSI from 'connect-ssi';
 /* ========================================================================
  * Sassをコンパイルするタスク
  ======================================================================== */
-const watchScssDirectories = ['**/*.scss', '!./boilerplates/**/*.scss'];
+const watchScssDirectories = ['**/*.scss', '!./boilerplates/**/*.scss', '!./node_modules/**/*.scss'];
 const compileSass = () =>
 	src(watchScssDirectories)
 		.pipe(

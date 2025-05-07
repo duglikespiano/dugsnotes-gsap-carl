@@ -36,3 +36,4 @@
 ### 3. 内容
 
 1. from, to, fromTo
+2. delay, repeat

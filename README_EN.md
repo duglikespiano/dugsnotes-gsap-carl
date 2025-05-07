@@ -36,3 +36,4 @@
 ### 3. Contents
 
 1. from, to, fromTo
+2. delay, repeat
