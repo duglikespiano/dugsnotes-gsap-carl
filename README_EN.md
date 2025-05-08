@@ -37,3 +37,4 @@
 
 1. from, to, fromTo
 2. delay, repeat
+3. ease
