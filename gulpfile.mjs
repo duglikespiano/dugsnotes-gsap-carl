@@ -50,7 +50,7 @@ const compileSass = () =>
 				return file.base;
 			})
 		)
-		.pipe(browserSync.stream());
+		.on('end', () => browserSync.reload());
 
 /*
  * Sassファイルを監視し、変更があったらSassを変換。
