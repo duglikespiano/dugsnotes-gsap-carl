@@ -39,3 +39,4 @@
 2. delay, repeat
 3. ease
 4. stagger
+5. tween control
