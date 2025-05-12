@@ -40,3 +40,4 @@
 3. ease
 4. stagger
 5. tween control
+6. transform origin

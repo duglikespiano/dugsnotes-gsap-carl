@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <link href="/6_transform_origin/style.css" rel="stylesheet" />
+    <script src="/6_transform_origin/app.js" defer></script>
+    <title>6_transform_origin</title>
+  </head>
+  <body>
+    <div class="demo">
+      <h2>
+        <span>transformOrigin</span>
+        is set with a pair of
+        <span>horizontal</span>
+        and
+        <span>vertical</span>
+        values
+      </h2>
+      <div class="box"></div>
+      <div class="labels"></div>
+      <div class="nav">
+        <div class="radios">
+          <label>
+            <input type="radio" name="property" value="pixels" checked />
+            pixels
+          </label>
+          <label>
+            <input type="radio" name="property" value="percents" />
+            percents
+          </label>
+          <label>
+            <input type="radio" name="property" value="keywords" />
+            keywords
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="hidden">
+      <div class="label">left top</div>
+    </div>
+  </body>
+</html>
