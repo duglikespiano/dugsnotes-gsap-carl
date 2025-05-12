@@ -41,3 +41,4 @@
 4. stagger
 5. tween control
 6. transform origin
+7. timeline
