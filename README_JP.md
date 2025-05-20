@@ -46,3 +46,4 @@
 9. timeline label
 10. hole jumper
 11. hover menu
+12. constant hover pulse
