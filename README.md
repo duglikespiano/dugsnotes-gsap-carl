@@ -47,3 +47,4 @@
 10. hole jumper
 11. hover menu
 12. constant hover pulse
+13. text effects

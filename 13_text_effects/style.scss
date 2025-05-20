@@ -1,0 +1,13 @@
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+	font-size: clamp(20px, 4vw, 36px);
+	padding: 10rem;
+	overflow: hidden;
+}
+
+.split-text-by-lines {
+	perspective: 400px;
+}
