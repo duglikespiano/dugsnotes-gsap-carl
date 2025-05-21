@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+}
+
+.section {
+	width: 100%;
+	height: 300vh;
+	&1 {
+		background-color: grey;
+		padding-top: 90vh;
+	}
+	&2 {
+		background-color: rgb(205, 159, 167);
+		padding-top: 90vh;
+	}
+	&3 {
+		background-color: rgb(113, 161, 180);
+		padding-top: 90vh;
+	}
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	&1 {
+		background-color: white;
+		margin-top: 90vh;
+	}
+	&2 {
+		background-color: white;
+		margin-top: 90vh;
+	}
+	&3 {
+		background-color: white;
+		margin-top: 90vh;
+	}
+}

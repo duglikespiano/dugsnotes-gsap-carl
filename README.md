@@ -49,3 +49,4 @@
 12. constant hover pulse
 13. text effects
 14. keyframes
+15. scroll trigger
