@@ -52,3 +52,4 @@
 15. scroll trigger
 16. scrub
 17. pin
+18. parallax scroll
