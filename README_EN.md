@@ -51,3 +51,4 @@
 14. keyframes
 15. scroll trigger
 16. scrub
+17. pin
