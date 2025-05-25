@@ -55,3 +55,4 @@
 18. parallax scroll
 19. locomotive scroll
 20. prevent scroll on fullscreen
+21. toggle class

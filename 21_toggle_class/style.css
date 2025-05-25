@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.containers-wrapper.active .to-top {
+  visibility: visible;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container1 {
+  background-color: pink;
+}
+.container2 {
+  background-color: rgb(175, 211, 120);
+}
+.container3 {
+  background-color: burlywood;
+}
+.container4 {
+  background-color: aquamarine;
+}
+
+.to-top {
+  position: fixed;
+  width: 500px;
+  height: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: wheat;
+  bottom: 3vh;
+  cursor: pointer;
+  visibility: hidden;
+}
