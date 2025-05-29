@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/GSDevTools.min.js"></script>
+    <script>
+      gsap.registerPlugin(GSDevTools, ScrollTrigger, SplitText, TextPlugin);
+    </script>
+    <link
+      href="/27_scroll_based_reading_progress_bar/style.css"
+      rel="stylesheet"
+    />
+    <script src="/27_scroll_based_reading_progress_bar/app.js" defer></script>
+    <title>27_scroll_based_reading_progress_bar</title>
+  </head>
+  <body>
+    <header class="centered">SomeSite.com</header>
+    <main>
+      <p>
+        Vel curae; arcu adipiscing posuere dictumst nostra blandit feugiat.
+        Quisque ornare hac pharetra vulputate etiam faucibus vestibulum.
+        Fringilla litora consectetur lectus sed lorem blandit massa duis
+        ultrices quisque fusce. Vitae laoreet tempor eu ipsum. Neque consequat,
+        dis ullamcorper fames dis lectus. Ornare consequat, cum elementum rutrum
+        facilisi pellentesque aenean. Quam dignissim vivamuisis! Sed ligula
+        rhoncus sem per et donec eu inceptos taciti consectetur. Ligula
+        Facilisis leo ultrices fusce sociosqu felis quisque ac porta praesent?
+        Curabitur leo aenean vehicula libero, conubia at. Convallis.
+      </p>
+      <p>
+        Justo scelerisque, nulla lorem sed venenatis. Ultricies pretium justo
+        eget. Mi est dictumst ad! Cursus duis sodales ultricies sollicitudin
+        tortor ridiculus nisi tellus vulputate nisi bibendum. Per lacinia
+        curabitur eu urna venenatis quis vivamus eleifend hit imperdiet, vivamus
+        potenti. Consectetur accumsan accumsan cum ridiculus ipsum. Suscipit
+        nisl ad erat risus turpis vestibulum neque sed eros diam arcu et. Et
+        nunc faucibus feugiat etiam, dis torquent primis penatibus quam
+        vestibulum enim. Tellus urna elementum sollicitudin diam taciti
+        venenatis volutpat hendrerit. Consectetur turpis amet class luctus.
+        Purus suspendisse posuere elit sem, interdum fringilla. Dolor, primis.
+      </p>
+      <div class="progressSpaceReserve">
+        <div class="progressHolder fixed">
+          <h4>Reading Progress</h4>
+          <div class="progressBarBG">
+            <div class="progressBar"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="comments">
+      <h2>Comments</h2>
+      <div class="comment">First!</div>
+      <div class="comment">This is great</div>
+      <div class="comment">Worst article... E V E R !!!!</div>
+      <div class="comment">Yo!</div>
+      <div class="comment">Thank you so much for this article.</div>
+      <div class="comment">
+        I followed your advice exactly but it didn't work for me
+      </div>
+    </section>
+    <section class="ads">
+      <h2>Bunch of Ads</h2>
+      <div class="adBlock">
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+      </div>
+    </section>
+    <footer class="centered">
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>

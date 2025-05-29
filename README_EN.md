@@ -61,3 +61,4 @@
 24. container animation
 25. change nav color on scroll
 26. change nav color on scroll2
+27. scroll based reading progress bar
