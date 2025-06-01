@@ -64,3 +64,4 @@
 27. scroll based reading progress bar
 28. scrollTo plugin
 29. four way to toggle animation
+30. responsive text effect1
