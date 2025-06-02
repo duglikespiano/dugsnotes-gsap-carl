@@ -65,3 +65,4 @@
 28. scrollTo plugin
 29. four way to toggle animation
 30. responsive text effect1
+31. responsive text effect2
