@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/GSDevTools.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(
+        GSDevTools,
+        ScrollTrigger,
+        SplitText,
+        TextPlugin,
+        ScrollToPlugin,
+      );
+    </script>
+    <link href="/32_off_screen_reset/style.css" rel="stylesheet" />
+    <script src="/32_off_screen_reset/app.js" defer></script>
+    <title>32_off_screen_reset</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container container1"></div>
+      <div class="container container2">
+        <div class="box"></div>
+      </div>
+      <div class="container container3"></div>
+    </div>
+  </body>
+</html>

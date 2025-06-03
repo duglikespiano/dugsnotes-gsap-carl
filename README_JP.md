@@ -66,3 +66,4 @@
 29. four way to toggle animation
 30. responsive text effect1
 31. responsive text effect2
+32. off screen reset
