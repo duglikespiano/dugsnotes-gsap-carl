@@ -67,3 +67,4 @@
 30. responsive text effect1
 31. responsive text effect2
 32. off screen reset
+33. multi colored section indicator
