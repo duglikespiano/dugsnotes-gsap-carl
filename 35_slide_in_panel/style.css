@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#content-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+}
+
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.panel.description {
+  position: relative;
+}

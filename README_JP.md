@@ -69,3 +69,4 @@
 32. off screen reset
 33. multi colored section indicator
 34. multi colored section indicator2
+35. slide in panel
