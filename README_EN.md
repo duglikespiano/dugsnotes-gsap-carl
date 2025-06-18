@@ -70,3 +70,4 @@
 33. multi colored section indicator
 34. multi colored section indicator2
 35. slide in panel
+36. stacking panels
