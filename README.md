@@ -71,3 +71,4 @@
 34. multi colored section indicator2
 35. slide in panel
 36. stacking panels
+37. layered pinning from bottom
