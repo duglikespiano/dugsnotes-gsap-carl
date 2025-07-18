@@ -1,0 +1,341 @@
+<!-- https://codepen.io/shunyadezain/pen/rNxzvgp?editors=0010 -->
+
+<!doctype html>
+<html lang="en">
+  <link
+    href="https://codepen.io/GreenSock/pen/7ba936b34824fefdccfe2c6d9f0b740b.css"
+    rel="stylesheet"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/GSDevTools.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(
+        GSDevTools,
+        ScrollTrigger,
+        SplitText,
+        TextPlugin,
+        ScrollToPlugin,
+      );
+    </script>
+    <link href="/39_scroll_with_svg/style.css" rel="stylesheet" />
+    <script src="/39_scroll_with_svg/app.js" defer></script>
+    <title>39_scroll_with_svg</title>
+  </head>
+  <body>
+    <div id="demo">
+      <svg
+        id="Layer_1"
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1002.85 8008.94"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #003955;
+            }
+
+            .cls-2 {
+              fill: #39f;
+            }
+
+            .cls-3 {
+              fill: #fff;
+            }
+
+            .cls-4 {
+              fill: #050505;
+            }
+
+            .cls-5 {
+              fill: #e2570a;
+            }
+
+            .cls-6,
+            .cls-9 {
+              fill: none;
+            }
+
+            .cls-6 {
+              stroke: #e2570a;
+              stroke-miterlimit: 10;
+              stroke-width: 40px;
+            }
+
+            .cls-7 {
+              fill: #ffeabf;
+            }
+
+            .cls-8 {
+              fill: #8fb3c6;
+            }
+
+            .cls-9 {
+              stroke: #323232;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+            }
+
+            .cls-10 {
+              fill: #2f6b82;
+            }
+
+            .cls-11 {
+              fill: #cdff33;
+            }
+
+            .cls-12 {
+              fill: #7c8c38;
+            }
+          </style>
+        </defs>
+        <rect
+          id="background"
+          class="cls-1"
+          x="0.5"
+          width="1000"
+          height="8008.94"
+        />
+        <g id="hero">
+          <g id="ship_0_Layer0_0_FILL" data-name="ship 0 Layer0 0 FILL">
+            <path
+              class="cls-2"
+              d="M573.65,166.1Q541.9,134.35,497,134.35T420.3,166.1q-31.76,31.8-31.75,76.7t31.75,76.65q31.8,31.8,76.7,31.8t76.65-31.8q31.8-31.76,31.8-76.65T573.65,166.1Z"
+              transform="translate(0.5 4.47)"
+            />
+          </g>
+          <circle class="cls-3" cx="461.69" cy="219.62" r="25.26" />
+          <circle class="cls-3" cx="527.76" cy="219.62" r="25.26" />
+          <circle class="cls-4" cx="461.92" cy="220.62" r="9.96" />
+          <circle class="cls-4" cx="526.8" cy="221.56" r="10" />
+          <ellipse class="cls-4" cx="494.83" cy="273.46" rx="12.87" ry="9" />
+        </g>
+        <g id="foe">
+          <circle class="cls-5" cx="794.9" cy="4261.55" r="61.48" />
+          <path
+            class="cls-6"
+            d="M794.4,4253.19s336.33,170.11,70.1,536.7"
+            transform="translate(0.5 4.47)"
+          />
+          <circle class="cls-7" cx="766.57" cy="4253.45" r="23.44" />
+          <circle class="cls-7" cx="823.23" cy="4253.45" r="23.44" />
+          <circle class="cls-4" cx="769.56" cy="4259.02" r="9.24" />
+          <circle class="cls-4" cx="817.7" cy="4258.04" r="9.28" />
+        </g>
+        <g id="cliffs">
+          <g id="Layer0_0_FILL" data-name="Layer0 0 FILL">
+            <path
+              class="cls-8"
+              d="M745.05,856.15l70.25,172L731.15,1432.6l91.65,50.9-138.4,441v4l34.5,55.9L680.35,2180,913.8,2300.85l10.6,279.35L710,2831.9l97.75,195.55-30.6,100.45L731,3172.1l22.15,46.1,42.2,61.7L750.75,3327l52.15,101.3,49.65,759.3-167,153.65L775.6,4525.7l-16.3,285.8,52.3,69.1-63.2,556.2,95.25,502.7L735.7,6046.9l123.35,142.45,100.4,266.3-69.2,239.9-94.2,259.6,79,37.55L829.2,7303.8l37.35,696.45h135.3V638.35l-256.8,217.8m-547.1-98L0,351.25V8000.7H151.45L279.3,7132.2l-94.2-259.6,155.65-239.9L216.3,6366.4,339.65,6224l-83.9-525,71.2-85.1-63.2-556.2,52.3-69.1L227.5,4662.6l114.1-140.3-62.55-486.9,11.45-313.65L324.6,3482l-50.6-35L262,3165l-100.9-36.1,68.1-496.5-91.65-50.9,138.4-441v-4l-34.5-55.9L280,1885l-77.4-56.8L144,1352.75l106.4-119.65L152.6,1037.55l50.7-78.65-87-111.45L198,758.15M383.5,3212.25v-.05h-.85Z"
+              transform="translate(0.5 4.47)"
+            />
+          </g>
+          <path
+            id="Layer0_0_1_STROKES"
+            data-name="Layer0 0 1 STROKES"
+            class="cls-9"
+            d="M0,351.25l198,406.9-81.65,89.3,87,111.45-50.7,78.65,97.75,195.55L144,1352.75,202.6,1828.2,280,1885l-38.55,195.6,34.5,55.9m0,4-138.4,441m91.65,50.9-68.1,496.5L262,3165l12,281.9,50.6,35-34.1,239.8L279.05,4035.4l62.55,486.9L227.5,4662.6l88.55,325.95-52.3,69.1,63.2,556.2-71.2,85.1,83.9,525L216.3,6366.4l124.45,266.3L185.1,6872.6l94.2,259.6L151.48,8000.73m715.07-.48L829.2,7303.8l45.85-311.1-79-37.55,94.2-259.6,69.2-239.9-100.4-266.3L735.7,6046.9l107.95-107.4L748.4,5436.8l63.2-556.2-52.3-69.1,16.3-285.8-90.05-184.45,167-153.65L802.9,3428.3,750.75,3327l44.55-47.1-42.2-61.7L731,3172.1l46.2-44.2,30.6-100.45L710,2831.9l214.4-251.7-10.6-279.35L680.35,2180l38.55-195.6-34.5-55.9v-4l138.4-441-91.65-50.9,84.15-404.45-70.25-172,256.8-217.8"
+            transform="translate(0.5 4.47)"
+          />
+          <g id="shadows">
+            <polyline
+              class="cls-10"
+              points="246.41 2163.61 203.07 2284.88 137.42 2039.82"
+            />
+            <polyline
+              class="cls-10"
+              points="126.8 1436.04 56.06 1509.3 170.67 1789.72"
+            />
+            <polyline
+              class="cls-10"
+              points="25.75 1850.35 25.75 2082.77 93.96 1718.98"
+            />
+            <polyline
+              class="cls-10"
+              points="137.42 2636.87 196.93 2673.93 151.34 3053.87"
+            />
+            <polyline
+              class="cls-10"
+              points="48.48 3136.41 213.9 3201.93 104.06 3676.87"
+            />
+            <polyline
+              class="cls-10"
+              points="231.58 3479.82 275.82 3502.56 167.17 3937.08"
+            />
+            <polyline
+              class="cls-10"
+              points="249.25 4078.56 323.18 4482.77 61.12 4348.87"
+            />
+            <polyline
+              class="cls-10"
+              points="840.97 1057.09 768.48 1390.56 957.96 1516.88"
+            />
+            <polyline
+              class="cls-10"
+              points="925.11 1286.98 945.33 1372.88 980.69 1248.34"
+            />
+            <polyline
+              class="cls-10"
+              points="715.43 1926.14 791.22 1991.82 821.53 1544.67"
+            />
+            <polyline
+              class="cls-10"
+              points="821.53 1868.04 821.53 1961.51 968.06 1868.04"
+            />
+            <polyline
+              class="cls-10"
+              points="738.17 2162.35 894.8 2257.09 980.69 1914.77"
+            />
+            <polyline
+              class="cls-10"
+              points="748.27 2845.37 821.53 2994.77 925.11 2636.87"
+            />
+            <polyline
+              class="cls-10"
+              points="942.8 2676.45 821.53 3136.41 980.69 3330.77"
+            />
+            <polyline
+              class="cls-10"
+              points="836.69 3429.3 882.17 3429.3 869.53 4004.47"
+            />
+            <polyline
+              class="cls-10"
+              points="725.54 4351.4 859.43 4222.56 965.53 4351.4"
+            />
+            <polyline
+              class="cls-10"
+              points="798.8 4697.5 783.64 4801.08 882.17 4697.5"
+            />
+            <polyline
+              class="cls-10"
+              points="803.85 4540.87 803.85 4664.66 917.53 4566.14"
+            />
+            <polyline
+              class="cls-10"
+              points="235.43 5084.03 298.59 5584.24 66.17 5687.82"
+            />
+            <polyline
+              class="cls-10"
+              points="225.33 4783.4 283.43 4955.19 246.41 5000.66"
+            />
+            <polyline
+              class="cls-10"
+              points="798.8 6018.76 960.48 5826.76 975.64 6218.34"
+            />
+            <polyline
+              class="cls-10"
+              points="922.59 6266.34 957.96 6367.39 975.64 6266.34"
+            />
+            <polyline
+              class="cls-10"
+              points="170.67 6958.55 246.41 7145.5 126.8 7910.97"
+            />
+            <polyline
+              class="cls-10"
+              points="30.8 6958.55 126.8 6660.45 111.64 7706.34"
+            />
+            <polyline
+              class="cls-10"
+              points="186.6 6392.66 263.22 6569.5 51.01 6569.5"
+            />
+            <polyline
+              class="cls-10"
+              points="170.67 746.35 93.96 812.04 56.06 493.72"
+            />
+            <polyline
+              class="cls-10"
+              points="137.42 1057.09 220.27 1213.72 25.75 1418.35"
+            />
+            <polyline
+              class="cls-10"
+              points="793.75 865.09 840.97 986.35 980.69 695.83"
+            />
+            <polyline
+              class="cls-10"
+              points="922.59 7044.44 864.48 7309.71 893.53 7948.86"
+            />
+            <polyline
+              class="cls-10"
+              points="840.97 6923.18 973.11 6981.29 973.11 6551.81"
+            />
+            <polyline
+              class="cls-10"
+              points="832.9 4980.45 773.54 5385.92 965.53 5056.24"
+            />
+            <polyline
+              class="cls-10"
+              points="949.11 5126.98 860.69 5288.66 949.11 5354.34"
+            />
+            <line
+              class="cls-10"
+              x1="845.54"
+              y1="5331.61"
+              x2="798.8"
+              y2="5407.4"
+            />
+          </g>
+        </g>
+        <g id="hello">
+          <path
+            class="cls-11"
+            d="M294.61,3024.59h9v11.52h10.65v-11.52h9v30.91h-9V3044H303.64v11.52h-9Z"
+            transform="translate(0.5 4.47)"
+          />
+          <path
+            class="cls-11"
+            d="M330.35,3052.93q-3.68-3-3.67-8.76c0-3.71,1-6.62,3.11-8.73s5.12-3.17,9.12-3.17q5.52,0,8.69,2.83a9.81,9.81,0,0,1,3.17,7.73v4H335a4.1,4.1,0,0,0,2.37,2.57,12.78,12.78,0,0,0,5,.79,23.91,23.91,0,0,0,3.91-.33,14.6,14.6,0,0,0,3.24-.87v5.43a22.52,22.52,0,0,1-9.36,1.58C336.07,3056,332.79,3055,330.35,3052.93Zm12.64-11v-.82q0-3.07-3.79-3.07a4.55,4.55,0,0,0-3.24,1,3.94,3.94,0,0,0-1,2.93Z"
+            transform="translate(0.5 4.47)"
+          />
+          <path
+            class="cls-11"
+            d="M355.93,3054.23q-1.8-1.76-1.8-5.59v-25.49h9v24.48a1.89,1.89,0,0,0,.41,1.39,2,2,0,0,0,1.37.38,6.26,6.26,0,0,0,2.35-.38v6a12.45,12.45,0,0,1-2.47.74,16.14,16.14,0,0,1-2.95.22Q357.74,3056,355.93,3054.23Z"
+            transform="translate(0.5 4.47)"
+          />
+          <path
+            class="cls-11"
+            d="M370,3054.23q-1.8-1.76-1.8-5.59v-25.49h9v24.48a1.89,1.89,0,0,0,.4,1.39,2,2,0,0,0,1.37.38,6.26,6.26,0,0,0,2.35-.38v6a12.26,12.26,0,0,1-2.47.74,16.14,16.14,0,0,1-2.95.22Q371.85,3056,370,3054.23Z"
+            transform="translate(0.5 4.47)"
+          />
+          <path
+            class="cls-11"
+            d="M381.39,3044.12q0-5.8,3.32-8.83t10-3q6.72,0,10.06,3t3.33,8.83q0,11.87-13.39,11.86T381.39,3044.12Zm16.49,4a8.66,8.66,0,0,0,0-8,3.77,3.77,0,0,0-3.19-1.28,3.66,3.66,0,0,0-3.12,1.28,8.9,8.9,0,0,0,0,8,3.69,3.69,0,0,0,3.12,1.24A3.81,3.81,0,0,0,397.88,3048.16Z"
+            transform="translate(0.5 4.47)"
+          />
+        </g>
+        <g id="friend">
+          <path
+            id="c"
+            class="cls-11"
+            d="M235.54,3068.7A38.48,38.48,0,1,0,262.76,3080,37.08,37.08,0,0,0,235.54,3068.7Z"
+            transform="translate(0.5 4.47)"
+          />
+          <path
+            id="c-2"
+            data-name="c"
+            class="cls-11"
+            d="M255.38,3055a38.48,38.48,0,1,0,27.22,11.27A37.08,37.08,0,0,0,255.38,3055Z"
+            transform="translate(0.5 4.47)"
+          />
+          <path
+            id="c-3"
+            data-name="c"
+            class="cls-11"
+            d="M214,3055a38.48,38.48,0,1,0,27.21,11.27A37.12,37.12,0,0,0,214,3055Z"
+            transform="translate(0.5 4.47)"
+          />
+          <circle class="cls-12" cx="209.71" cy="3095.67" r="22.5" />
+          <circle class="cls-12" cx="264.11" cy="3095.67" r="22.5" />
+          <circle class="cls-4" cx="212.58" cy="3101.02" r="8.87" />
+          <circle class="cls-4" cx="258.8" cy="3100.08" r="8.91" />
+        </g>
+      </svg>
+    </div>
+  </body>
+</html>
