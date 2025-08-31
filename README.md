@@ -74,3 +74,4 @@
 37. layered pinning from bottom
 38. control video
 39. scroll with svg
+40. svg path follower
