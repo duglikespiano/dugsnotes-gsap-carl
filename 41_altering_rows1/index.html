@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/GSDevTools.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(
+        GSDevTools,
+        ScrollTrigger,
+        SplitText,
+        TextPlugin,
+        ScrollToPlugin,
+        DrawSVGPlugin,
+      );
+    </script>
+    <link href="/41_altering_rows1/style.css" rel="stylesheet" />
+    <script src="/41_altering_rows1/app.js" defer></script>
+    <title>41_altering_rows1</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+    rel="stylesheet"
+  />
+
+  <div class="main">
+    <div class="fullScreen">
+      <h1>Gallery of Wonders</h1>
+      <h3>Scroll Down</h3>
+    </div>
+    <div class="cols-2">
+      <div class="item photoHolder">
+        <div class="photo ozarkhills"></div>
+      </div>
+      <div class="item">
+        <div>
+          <h1>Ozark Hills</h1>
+          <p>
+            These rolling hills are filled with lush wild flowers and trickling
+            streams. From dusk til dawn the sun paints this lush landscape with
+            every color of the rainbow. Plan a day hike the whole family can
+            enjoy
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols-2">
+      <div class="item photoHolder">
+        <div class="photo crimsonforest"></div>
+      </div>
+      <div class="item">
+        <div>
+          <h1>Crimson Forest</h1>
+          <p>
+            It's a like a journey through a place time forgot. The Crimson
+            Forest is in a perpetual state of autumn giving visitors all over
+            the world the same experience regardless of when they visit.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols-2">
+      <div class="item photoHolder">
+        <div class="photo shamrockmeadows"></div>
+      </div>
+      <div class="item">
+        <div>
+          <h1>Shamrock Meadows</h1>
+          <p>
+            I have made many a road trip in my lifetime, but for all out
+            wondrous scenery, and quirky, charming appeal, few can compare to
+            driving the Irish countryside to picnic in Shamrock Meadows
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols-2">
+      <div class="item photoHolder">
+        <div class="photo riverdetroit"></div>
+      </div>
+      <div class="item">
+        <div>
+          <h1>River de Detroit</h1>
+          <p>
+            Fashion ye' Tivas, grab a kayak, and explore the mystery of River de
+            Detroit. Once afloat you'll soon forget the troubles of this world.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fullScreen"></div>
+  </div>
+</html>
