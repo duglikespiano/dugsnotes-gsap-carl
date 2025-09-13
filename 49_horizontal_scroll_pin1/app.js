@@ -16,6 +16,7 @@ function getScrollAmount() {
 const tween = gsap.to(races, {
 	x: getScrollAmount,
 	duration: 3,
+	// ease: 'none' is highly recommended for horizontal scroll animation
 	ease: 'none',
 });
 
