@@ -18,11 +18,8 @@ body {
   padding-right: 0.3em;
   padding-left: 0.3em;
   color: #e10600;
+  white-space: nowrap;
   margin: 0;
-}
-
-.races h2:last-of-type {
-  background: #e1e1ff;
 }
 
 .lightBG {
@@ -43,4 +40,30 @@ body {
 
 .space-100vh {
   height: 100vh;
+}
+
+.maps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  height: 150px;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: dodgerblue;
+  margin-right: 10px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  opacity: 0;
+  position: absolute;
 }
