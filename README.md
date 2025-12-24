@@ -8,7 +8,6 @@
 
 1. 개요
 2. 프로젝트목표
-3. 내용
    </br>
    </br>
 
@@ -32,47 +31,3 @@
 2. 예제 애니메이션을 작성 할 것
    </br>
    </br>
-
-### 3. 내용
-
-1. from, to, fromTo
-2. delay, repeat
-3. ease
-4. stagger
-5. tween control
-6. transform origin
-7. timeline
-8. timeline position
-9. timeline label
-10. hole jumper
-11. hover menu
-12. constant hover pulse
-13. text effects
-14. keyframes
-15. scroll trigger
-16. scrub
-17. pin
-18. parallax scroll
-19. locomotive scroll
-20. prevent scroll on fullscreen
-21. toggle class
-22. fast scroll end
-23. prevent overlaps
-24. container animation
-25. change nav color on scroll
-26. change nav color on scroll2
-27. scroll based reading progress bar
-28. scrollTo plugin
-29. four way to toggle animation
-30. responsive text effect1
-31. responsive text effect2
-32. off screen reset
-33. multi colored section indicator
-34. multi colored section indicator2
-35. slide in panel
-36. stacking panels
-37. layered pinning from bottom
-38. control video
-39. scroll with svg
-40. svg path follower
-41. altering rows1
