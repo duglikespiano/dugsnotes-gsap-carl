@@ -1,0 +1,13 @@
+.box {
+  width: 12vh;
+  height: 12vh;
+  margin-bottom: 6px;
+  background: dodgerblue;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 6vh;
+}
